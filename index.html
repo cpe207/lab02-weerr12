@@ -16,13 +16,29 @@
       crossorigin="anonymous"
     ></script>
     <title>My Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
+      * {
+        font-family: "Agdasima", sans-serif;
+      }
+
+    </style>
+    <style>
+      body {
+        background: url(image/Los\ Angeles\ Lakers\ Lebron\ James\ GIF\ -\ Los\ Angeles\ Lakers\ Lebron\ James\ Lebron\ -\ Discover\ &\ Share\ GIFs.gif)
+          no-repeat center center/cover;
+      }
+    </style>
   </head>
-  <body style="background-color: beige">
-    <div class="d-flex justify-content-center gap-3 fw-bold my-4">
-      <a href="http://127.0.0.1:5500/index.html">Home</a>
-      <a href="http://127.0.0.1:5500/Experience.html">Experience</a>
-      <a href="http://127.0.0.1:5500/gallery.html">Gallery</a>
-      <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+  <body>
+    <div
+      class="d-flex justify-content-center gap-4 fw-bold my-4"
+      style="font-size: 150% "
+    >
+      <a href="http://127.0.0.1:5500/index.html" style="color: white; text-decoration:none">Home</a>
+      <a href="http://127.0.0.1:5500/Experience.html" style="color: white; text-decoration:none">Experience</a>
+      <a href="http://127.0.0.1:5500/gallery.html" style="color: white; text-decoration:none">Gallery</a>
+      <a href="http://127.0.0.1:5500/contact.html" style="color: white; text-decoration:none">Contact</a>
     </div>
     <div
       class="d-flex justify-content-center align-items-center mx-auto gap-3"
@@ -32,49 +48,41 @@
         <img
           src="image/meng.jpg"
           class="rounded-circle"
-          width="200"
-          height="200"
+          width="200px"
+          height="200px"
           style="object-fit: cover"
         />
       </div>
       <div class="d-none d-sm-block">
-        <div class="display-5 mb-3">Werasak Mayer</div>
-        <div class="text-muted">
+        <div class="display-5 mb-3 text-uppercase">Werasak Mayer</div>
+        <div class="text-uppercase fw-bold" style="font-size: 110%">
           Hi, my name is Werasak. I'm in Chiang Mai and I'm studying at Chiang
           Mai University. Studied Computer Engineering. Nice to meet you all.
         </div>
       </div>
     </div>
     <div class="display-5 d-sm-none text-center my-3">Werasak Mayer</div>
-    <p class="text-center fs-3">Skills</p>
+    <p class="text-center fs-3" style="font-size: 150%"><h3>Skills</h3></p>
     <div style="max-width: 700px" class="mx-auto px-3">
-      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all bg-white border white">
         <div class="my-rounded-left">
           <img
             src="image/Los Angeles Lakers Lebron James GIF - Los Angeles Lakers Lebron James Lebron - Discover & Share GIFs.gif"
             width="150px"
             height="150px"
             style="object-fit: cover"
-            class="my-rounded-left d-none d-sm-block"
+            class="my-rounded-left d-none d-sm-block border"
           />
         </div>
         <div class="p-4">
-          <p class="fw-semibold fs-5">Sports</p>
-          <span class="text-muted">
-            I am proficient in basketball 🏀, football ⚽, and badminton 🏸.
-            <div class=""></div
-          ></span>
+          <p class="fw-semibold fs-5 text-uppercase fw-bold">Sports 🛹</p>
+          <span class="text-uppercase fw-bold">
+            I am proficient in basketball , football , and badminton. ></span
+          >
         </div>
       </div>
-      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
-        <div class="p-4">
-          <p class="fw-semibold fs-5">An instrument of music</p>
-          <span class="text-muted">
-            Since I've been playing the guitar for a year, I can now play
-            fluidly 🎸🔥✅.
-          </span>
-        </div>
-        <div class="my-rounded-right">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all bg-white border white">
+        <div class="my-rounded-le">
           <img
             src="image/Guitar.jpg"
             width="150px"
@@ -83,8 +91,15 @@
             class="my-rounded-right d-none d-sm-block"
           />
         </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5 text-uppercase fw-bold">An instrument of music 🎸</p>
+          <span class="text-uppercase fw-bold">
+            Since I've been playing the guitar for a year, I can now play
+            fluidly .
+          </span>
+        </div>
       </div>
-      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all bg-white border white">
         <div class="my-rounded-left">
           <img
             src="image/ดาวน์โหลด.jpg"
@@ -95,14 +110,14 @@
           />
         </div>
         <div class="p-4">
-          <p class="fw-semibold fs-5">Art</p>
-          <span class="text-muted">
-            I'm not very good at painting, but I love it 🎨.
+          <p class="fw-semibold fs-5 text-uppercase fw-bold">Art 🎨</p>
+          <span class="text-uppercase fw-bold">
+            I'm not very good at painting, but I love it.
           </span>
         </div>
       </div>
     </div>
-    <p class="text-center text-muted m-4">
+    <p class="text-center text-white m-4 fw-bold">
       © 2023 werasak-mayer.com by Werasak Mayer
     </p>
   </body>

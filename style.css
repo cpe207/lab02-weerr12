@@ -5,18 +5,14 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: darkgoldenrod;
-  font-style: italic;
+  color: rgb(255, 255, 255);
 }
 h3 {
   text-align: center;
-  color: darkgoldenrod;
-  font-style: italic;
+  color: rgb(0, 0, 0);
 }
 h4 {
-  color: darkgoldenrod;
-  font-style: italic;
-  font-size: 120%;
+  color: rgb(77, 28, 190);
 }
 .skill-header {
   text-align: center;

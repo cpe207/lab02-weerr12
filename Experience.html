@@ -16,17 +16,48 @@
       crossorigin="anonymous"
     ></script>
     <title>My Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
+      * {
+        font-family: "Agdasima", sans-serif;
+      }
+      html
+      {
+        font-size: calc(60% + 0.8vmin);
+      }
+       h1 {
+        font-size: 1.7rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      h3 {
+        font-size: 1.1rem;
+      }
+      h4 {
+        font-size: 0.8rem;
+      }
+    </style>
+    <style>
+      body {
+        background: url(image/Studying\ With\ Jessie.gif) no-repeat center
+          center/cover;
+      }
+    </style>
   </head>
-  <body style="background-color: beige">
-    <div class="d-flex justify-content-center gap-3 fw-bold my-4">
-      <a href="http://127.0.0.1:5500/index.html">Home</a>
-      <a href="http://127.0.0.1:5500/Experience.html">Experience</a>
-      <a href="http://127.0.0.1:5500/gallery.html">Gallery</a>
-      <a href="http://127.0.0.1:5500/contact.html">Contact</a>
-    </div>
-    <p class="text-center fs-3">Skills</p>
+  <body>
+    <div
+      class="d-flex justify-content-center gap-4 fw-bold my-4"
+      style="font-size: 150%"
+    >
+    <a href="http://127.0.0.1:5500/index.html" style="color: white; text-decoration:none">Home</a>
+    <a href="http://127.0.0.1:5500/Experience.html" style="color: white; text-decoration:none">Experience</a>
+    <a href="http://127.0.0.1:5500/gallery.html" style="color: white; text-decoration:none">Gallery</a>
+    <a href="http://127.0.0.1:5500/contact.html" style="color: white; text-decoration:none">Contact</a>
+  </div>
+    <p class="text-center fs-3 fw-bold"><h2>Expirence</h2></p>
     <div style="max-width: 700px" class="mx-auto px-3">
-      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all bg-dark border-dark">
         <div class="my-rounded-left">
           <img
             src="image/Studying With Jessie.gif"
@@ -37,22 +68,15 @@
           />
         </div>
         <div class="p-4">
-          <p class="fw-semibold fs-5">A calligraphy contest</p>
-          <span class="text-muted">
+          <p class="fw-semibold fs-5 text-white fw-bold">A calligraphy contest 🕮</p>
+          <span class="text-white ">
             In the past, I entered a calligraphy competition on behalf of my
-            school, but I was unsuccessful 🕮🖋️.
+            school, but I was unsuccessful .
           </span>
         </div>
       </div>
-      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
-        <div class="p-4">
-          <p class="fw-semibold fs-5">Sports</p>
-          <span class="text-muted">
-            I was allowed to play soccer and even participated in a game for my
-            school ⚽🟥🟨.
-          </span>
-        </div>
-        <div class="my-rounded-right">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all bg-dark border-dark">
+        <div class="my-rounded-left">
           <img
             src="image/ball.gif"
             width="150px"
@@ -61,8 +85,15 @@
             class="my-rounded-right d-none d-sm-block"
           />
         </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5 text-white fw-bold">Sports ⚽</p>
+          <span class="text-white">
+            I was allowed to play soccer and even participated in a game for my
+            school .
+          </span>
+        </div>
       </div>
-      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all bg-dark border-dark">
         <div class="my-rounded-left">
           <img
             src="image/calculation-math.gif"
@@ -73,15 +104,15 @@
           />
         </div>
         <div class="p-4">
-          <p class="fw-semibold fs-5">Quick Math</p>
-          <span class="text-muted">
+          <p class="fw-semibold fs-5 text-white fw-bold">Quick Math 🏅</p>
+          <span class="text-white ">
             I once competed in the 180 IQ skill competition on behalf of the
-            school and finished in fifth place ➕➖🏅.
+            school and finished in fifth place.
           </span>
         </div>
       </div>
     </div>
-    <p class="text-center text-muted m-4">
+    <p class="text-center text-white fw-bold m-4">
       © 2023 werasak-mayer.com by Werasak Mayer
     </p>
   </body>
