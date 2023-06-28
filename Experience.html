@@ -4,35 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <title>My Portfolio</title>
   </head>
   <body style="background-color: beige">
-    <h1 class="center-header">My Portfolio</h1>
-    <p style="text-align: center; margin-right: auto">
+    <div class="d-flex justify-content-center gap-3 fw-bold my-4">
       <a href="http://127.0.0.1:5500/index.html">Home</a>
-      |
       <a href="http://127.0.0.1:5500/Experience.html">Experience</a>
-      |
-      <a href="http://127.0.0.1:5500/contact.html">Contact me</a>
-    </p>
-    <img
-      src="image/meng.jpg"
-      wild="300px"
-      height="300px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <h3 class="skill-header;font-size:17px">Werasak Mayer</h3>
-    <p style="text-align: center">
-      Hi my name is Wee. Nice to meet you all 😄 😍 💗.
-    </p>
-    <h3>Expirience</h3>
-    <div class="skill-container">
-      <h4>Participating 180 iq</h4>
-      <p>I participated in Chiang Rai and was ranked 5th in attendance 🎖️.</p>
+      <a href="http://127.0.0.1:5500/gallery.html">Gallery</a>
+      <a href="http://127.0.0.1:5500/contact.html">Contact</a>
     </div>
-    <div class="skill-container">
-      <h4>Hobby</h4>
-      <p>I love to play a game 🎮 and play guitar 🎸.</p>
+    <p class="text-center fs-3">Skills</p>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="image/Studying With Jessie.gif"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">A calligraphy contest</p>
+          <span class="text-muted">
+            In the past, I entered a calligraphy competition on behalf of my
+            school, but I was unsuccessful 🕮🖋️.
+          </span>
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Sports</p>
+          <span class="text-muted">
+            I was allowed to play soccer and even participated in a game for my
+            school ⚽🟥🟨.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="image/ball.gif"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="image/calculation-math.gif"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Quick Math</p>
+          <span class="text-muted">
+            I once competed in the 180 IQ skill competition on behalf of the
+            school and finished in fifth place ➕➖🏅.
+          </span>
+        </div>
+      </div>
     </div>
+    <p class="text-center text-muted m-4">
+      © 2023 werasak-mayer.com by Werasak Mayer
+    </p>
   </body>
 </html>
